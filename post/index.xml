@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EA安装游戏提示出了点问题</title>
+      <link>https://changzhenlin.github.io/tyler/2022/03/11/set_up_my_ea/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.github.io/tyler/2022/03/11/set_up_my_ea/</guid>
+      <description>Cause / origin 开通XGP后，下载EA旗下游戏（双人成形）提示报错 Do something 挂梯子 用加速器 修改host 。。。 然并卵 Solved 先使用xbox下载一个ea旗下的植物大战</description>
+    </item>
+    
     <item>
       <title>Clean White Theme for Hugo</title>
       <link>https://changzhenlin.github.io/tyler/post/readme/</link>
@@ -34,15 +43,6 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;在6月1日这一天的早上，Istio社区宣布发布0.8 Release，除了常规的故障修复和性能改进外，这个儿童节礼物里面还有什么值得期待内容呢？让我们来看一看：&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Everything about Setting Up My Ubuntu Desktop</title>
-      <link>https://changzhenlin.github.io/tyler/2018/05/24/set_up_my_ubuntu_desktop/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.github.io/tyler/2018/05/24/set_up_my_ubuntu_desktop/</guid>
-      <description>Generate SSH Key Pair ssh-keygen -C &amp;#34;Changzhenlin@gmail.com&amp;#34; Shadowsocks Install shadowsokcs sudo apt-get install python3-pip sudo pip3 install shadowsocks Create config at config/shadowsocks.json, with the following content: { &amp;#34;server&amp;#34;:&amp;#34;remote-shadowsocks-server-ip-addr&amp;#34;, &amp;#34;server_port&amp;#34;:443, &amp;#34;local_address&amp;#34;:&amp;#34;127.0.0.1&amp;#34;, &amp;#34;local_port&amp;#34;:1080, &amp;#34;password&amp;#34;:&amp;#34;your-passwd&amp;#34;, &amp;#34;timeout&amp;#34;:300, &amp;#34;method&amp;#34;:&amp;#34;aes-256-cfb&amp;#34;, &amp;#34;fast_open&amp;#34;:false, &amp;#34;workers&amp;#34;:1 } Start a local socks proxy sudo sslocal -c config/shadowsocks.json -d start In case there is an openssl error, modify shadowsocks source file. sudo vi /usr/local/lib/python3.6/dist-packages/shadowsocks/crypto/openssl.py :%s/cleanup/reset/gc Convert shadowsocks socks proxy to http proxy</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@
     </item>
     
     <item>
-      <title>川西秘境探险</title>
+      <title>EA下载游戏提示报错</title>
       <link>https://changzhenlin.github.io/tyler/2018/05/01/may-day-jiulonghu/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       

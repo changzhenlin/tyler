@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="Everything about Setting Up My Ubuntu Desktop" />
-    <meta property="og:title" content="Everything about Setting Up My Ubuntu Desktop" />
-    <meta property="twitter:title" content="Everything about Setting Up My Ubuntu Desktop" />
+    <meta name="title" content="EA安装游戏提示出了点问题" />
+    <meta property="og:title" content="EA安装游戏提示出了点问题" />
+    <meta property="twitter:title" content="EA安装游戏提示出了点问题" />
     
 
     
-    <meta name="description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later">
-    <meta property="og:description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later" />
-    <meta property="twitter:description" content="Everything about setting up my own ubuntu desktop, it&#39;s just a Note in case I need it later" />
+    <meta name="description" content="开通XGP后，下载EA旗下游戏（双人成形）提示报错">
+    <meta property="og:description" content="开通XGP后，下载EA旗下游戏（双人成形）提示报错" />
+    <meta property="twitter:description" content="开通XGP后，下载EA旗下游戏（双人成形）提示报错" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="常振林, Changzhenlin, Changzhenlin, , 常振林的网络日志, 常振林的博客, Changzhenlin Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/tyler/img/favicon.ico">
 
-    <title>Everything about Setting Up My Ubuntu Desktop-常振林的博客 | Changzhenlin Blog</title>
+    <title>EA安装游戏提示出了点问题-常振林的博客 | Changzhenlin Blog</title>
 
-    <link rel="canonical" href="/tyler/2018/05/24/set_up_my_ubuntu_desktop/">
+    <link rel="canonical" href="/tyler/2022/03/11/set_up_my_ea/">
 
     
     
@@ -165,7 +165,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/tyler/img/2018-05-23-service_2_service_auth/background.jpg')
+        background-image: url('/tyler/img/home-bg-jeep.jpg')
     }
 </style>
 
@@ -177,12 +177,12 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tyler/tags/ubuntu" title="ubuntu">
-                            ubuntu
+                        <a class="tag" href="/tyler/tags/game" title="Game">
+                            Game
                         </a>
                         
                     </div>
-                    <h1>Everything about Setting Up My Ubuntu Desktop</h1>
+                    <h1>EA安装游戏提示出了点问题</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
@@ -191,7 +191,7 @@
                                     &#34;常振林&#34;
                              
                             on 
-                            Thursday, May 24, 2018
+                            Friday, March 11, 2022
                             
                             
                             
@@ -217,44 +217,22 @@
                 post-container">
 
                 
-                <h2 id="generate-ssh-key-pair">Generate SSH Key Pair</h2>
-<pre tabindex="0"><code>ssh-keygen -C &#34;Changzhenlin@gmail.com&#34;
-</code></pre><h2 id="shadowsocks">Shadowsocks</h2>
-<p>Install shadowsokcs</p>
-<pre tabindex="0"><code>sudo apt-get install python3-pip
+                <h2 id="cause--origin">Cause / origin</h2>
+<p>开通XGP后，下载EA旗下游戏（双人成形）提示报错</p>
+<p>
+  <img src="https://changzhenlin.github.io/tyler/img/ea.jpg" alt="avatar">
 
-sudo pip3 install shadowsocks
-</code></pre><p>Create config at <code>config/shadowsocks.json</code>, with the following content:</p>
-<pre tabindex="0"><code>{
-	&#34;server&#34;:&#34;remote-shadowsocks-server-ip-addr&#34;,
-	&#34;server_port&#34;:443,
-	&#34;local_address&#34;:&#34;127.0.0.1&#34;,
-	&#34;local_port&#34;:1080,
-	&#34;password&#34;:&#34;your-passwd&#34;,
-	&#34;timeout&#34;:300,
-	&#34;method&#34;:&#34;aes-256-cfb&#34;,
-	&#34;fast_open&#34;:false,
-	&#34;workers&#34;:1
-}
-</code></pre><p>Start a local socks proxy</p>
-<pre tabindex="0"><code>sudo sslocal -c config/shadowsocks.json -d start
-</code></pre><p>In case there is an openssl error, modify shadowsocks source file.</p>
-<pre tabindex="0"><code>sudo vi /usr/local/lib/python3.6/dist-packages/shadowsocks/crypto/openssl.py 
+</p>
+<h2 id="do-something">Do something</h2>
+<p>挂梯子</p>
+<p>用加速器</p>
+<p>修改host</p>
+<p>。。。</p>
+<p>然并卵</p>
+<h2 id="solved">Solved</h2>
+<p>先使用xbox下载一个ea旗下的植物大战僵尸</p>
+<p>成功后就可以下载其他</p>
 
-:%s/cleanup/reset/gc
-</code></pre><p>Convert shadowsocks socks proxy to http proxy</p>
-<pre tabindex="0"><code>sudo apt-get install polipo
-
-echo &#34;socksParentProxy = localhost:1080&#34; | sudo tee -a /etc/polipo/config 
-sudo service polipo restart
-</code></pre><p>Http proxy now is available at port 8123</p>
-<h1 id="set-bing-wallpaper-as-desktop-background">Set bing wallpaper as desktop background</h1>
-<pre tabindex="0"><code>sudo add-apt-repository ppa:whizzzkid/bingwallpaper
-sudo apt-get update
-sudo apt-get install bingwallpaper
-</code></pre><h1 id="use-vim-mode-in-bash">Use vim mode in bash</h1>
-<pre tabindex="0"><code>echo &#39;set -o vi&#39;&gt;&gt; ~/.bashrc
-</code></pre>
 
                 
                 
@@ -302,15 +280,10 @@ sudo apt-get install bingwallpaper
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/tyler/2018/05/23/external_system_auth/" data-toggle="tooltip" data-placement="top" title="微服务安全沉思录之三">&larr;
+                        <a href="/tyler/post/readme/" data-toggle="tooltip" data-placement="top" title="Clean White Theme for Hugo">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/tyler/2018/06/02/istio08/" data-toggle="tooltip" data-placement="top" title="Istio 0.8 Release发布">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
                 
@@ -359,6 +332,8 @@ sudo apt-get install bingwallpaper
                         
                         
                         
+                        
+                        
                         <a href="/tyler/tags/istio" title="istio">
                             istio
                         </a>
@@ -394,8 +369,6 @@ sudo apt-get install bingwallpaper
                         <a href="/tyler/tags/tips" title="tips">
                             tips
                         </a>
-                        
-                        
                         
                         
                         

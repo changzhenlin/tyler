@@ -2,17 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://changzhenlin.github.io/tyler/post/readme/</loc>
-    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+    <loc>https://changzhenlin.github.io/tyler/categories/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/2022/03/11/set_up_my_ea/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/game/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/post/</loc>
-    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/categories/tips/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/</loc>
-    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://changzhenlin.github.io/tyler/categories/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <loc>https://changzhenlin.github.io/tyler/post/readme/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/tags/istio/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
@@ -20,23 +32,11 @@
     <loc>https://changzhenlin.github.io/tyler/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://changzhenlin.github.io/tyler/tags/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/tech/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2018/06/02/istio08/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/2018/05/24/set_up_my_ubuntu_desktop/</loc>
-    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/categories/tips/</loc>
-    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/tags/ubuntu/</loc>
-    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/tags/microservice/</loc>
     <lastmod>2018-05-23T18:00:00+00:00</lastmod>
@@ -59,13 +59,13 @@
     <loc>https://changzhenlin.github.io/tyler/tags/kubernetes/</loc>
     <lastmod>2018-05-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://changzhenlin.github.io/tyler/2018/05/01/may-day-jiulonghu/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/life/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/tags/travel/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/2018/05/01/may-day-jiulonghu/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/tags/helm/</loc>
