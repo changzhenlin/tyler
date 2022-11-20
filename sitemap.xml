@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://changzhenlin.github.io/tyler/categories/archive/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/articel/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/post/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/categories/tech/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/post/my-first-post/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2022/03/11/set_up_my_ea/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
@@ -11,16 +32,7 @@
     <loc>https://changzhenlin.github.io/tyler/tags/game/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://changzhenlin.github.io/tyler/post/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/tags/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/tips/</loc>
-    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/post/readme/</loc>
@@ -30,9 +42,6 @@
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/categories/tech/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2018/06/02/istio08/</loc>

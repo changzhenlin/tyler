@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>做一个更出色的程序员</title>
+      <link>https://changzhenlin.github.io/tyler/post/my-first-post/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.github.io/tyler/post/my-first-post/</guid>
+      <description>&lt;p&gt;根据应用系统的数据敏感程度的不同，对于系统内微服务的相互访问可能有不同的安全要求。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>EA安装游戏提示出了点问题</title>
       <link>https://changzhenlin.github.io/tyler/2022/03/11/set_up_my_ea/</link>
