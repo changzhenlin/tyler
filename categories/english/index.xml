@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>articel on Tyler Blog</title>
-    <link>https://changzhenlin.github.io/tyler/tags/articel/</link>
-    <description>Recent content in articel on Tyler Blog</description>
+    <title>English on Tyler Blog</title>
+    <link>https://changzhenlin.github.io/tyler/categories/english/</link>
+    <description>Recent content in English on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/tags/articel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/categories/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>做一个更出色的程序员</title>
       <link>https://changzhenlin.github.io/tyler/post/my-first-post/</link>
