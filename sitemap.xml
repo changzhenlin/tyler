@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://changzhenlin.github.io/tyler/tags/articel/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/english/</loc>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/english/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/2022/11/22/istio-install_and_example/</loc>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/post/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/skill/</loc>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/tags/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/categories/tech/</loc>
-    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/</loc>
+    <lastmod>2022-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://changzhenlin.github.io/tyler/tags/articel/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/post/my-first-post/</loc>
@@ -130,9 +139,6 @@
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2017/11/07/istio-traffic-shifting/</loc>
     <lastmod>2017-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://changzhenlin.github.io/tyler/2017/11/04/istio-install_and_example/</loc>
-    <lastmod>2017-11-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://changzhenlin.github.io/tyler/2017/11/03/hello-world/</loc>
     <lastmod>2017-11-04T00:00:00+00:00</lastmod>
