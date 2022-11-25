@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>English on Tyler Blog</title>
-    <link>https://changzhenlin.github.io/tyler/categories/english/</link>
+    <link>https://changzhenlin.top/categories/english/</link>
     <description>Recent content in English on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.github.io/tyler/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add a snake game to your contribution graph on Github</title>
-      <link>https://changzhenlin.github.io/tyler/2022/11/22/istio-install_and_example/</link>
+      <link>https://changzhenlin.top/2022/11/22/istio-install_and_example/</link>
       <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>https://changzhenlin.github.io/tyler/2022/11/22/istio-install_and_example/</guid>
+      <guid>https://changzhenlin.top/2022/11/22/istio-install_and_example/</guid>
       <description>When I open somebody’s Github profile, the first thing I look for is the contribution graph. I know that the contribution graph is not informative at all, but I like to see the different patterns and images the colors form. Creating any kind of image on a contribution graph is very challenging because it requires a daily commitment to the task.</description>
     </item>
     

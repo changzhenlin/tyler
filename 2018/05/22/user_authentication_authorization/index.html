@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://changzhenlin.github.io/tyler//img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://changzhenlin.github.io/tyler//img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://changzhenlin.top//img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://changzhenlin.top//img/home-bg-jeep.jpg" />
     
 
     
@@ -32,22 +32,22 @@
     
 
     <meta name="keyword"  content="常振林, Changzhenlin, Changzhenlin, , 常振林的网络日志, 常振林的博客, Changzhenlin Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Kubernetes, 微服务, Microservice">
-    <link rel="shortcut icon" href="/tyler/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>微服务安全沉思录之一-常振林的博客 | Changzhenlin Blog</title>
 
-    <link rel="canonical" href="/tyler/2018/05/22/user_authentication_authorization/">
+    <link rel="canonical" href="/2018/05/22/user_authentication_authorization/">
 
     
     
     
-    <link rel="stylesheet" href="/tyler/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     
-    <link rel="stylesheet" href="/tyler/css/hugo-theme-cleanwhite.min.css">
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
 
     
-    <link rel="stylesheet" href="/tyler/css/zanshang.css">
+    <link rel="stylesheet" href="/css/zanshang.css">
 
     
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
@@ -57,13 +57,13 @@
 
     
     
-    <script src="/tyler/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
 
     
-    <script src="/tyler/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     
-    <script src="/tyler/js/hux-blog.min.js"></script>
+    <script src="/js/hux-blog.min.js"></script>
 
     
     
@@ -84,7 +84,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/tyler/">Tyler Blog</a>
+            <a class="navbar-brand" href="/">Tyler Blog</a>
         </div>
 
         
@@ -93,39 +93,39 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/tyler/">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     
                         
                         <li>
-                            <a href="/tyler/categories/english">english</a>
+                            <a href="/categories/english">english</a>
                         </li>
                         
                         <li>
-                            <a href="/tyler/categories/life">life</a>
+                            <a href="/categories/life">life</a>
                         </li>
                         
                         <li>
-                            <a href="/tyler/categories/tech">tech</a>
+                            <a href="/categories/tech">tech</a>
                         </li>
                         
                         <li>
-                            <a href="/tyler/categories/tips">tips</a>
+                            <a href="/categories/tips">tips</a>
                         </li>
                         
                     
                     
 		    
-                        <li><a href="/tyler/top/books/">ENGLISH</a></li>
+                        <li><a href="/top/books/">ENGLISH</a></li>
                     
-                        <li><a href="/tyler/top/archive/">ARCHIVE</a></li>
+                        <li><a href="/top/archive/">ARCHIVE</a></li>
                     
-                        <li><a href="/tyler/top/about/">ABOUT</a></li>
+                        <li><a href="/top/about/">ABOUT</a></li>
                     
 
                     
 		    <li>
-                        <a href="/tyler/search"><i class="fa fa-search"></i></a>
+                        <a href="/search"><i class="fa fa-search"></i></a>
 		    </li>
                     
                 </ul>
@@ -169,7 +169,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/tyler/img/2018-05-22-user_authentication_authorization/background.jpg')
+        background-image: url('/img/2018-05-22-user_authentication_authorization/background.jpg')
     }
 </style>
 
@@ -181,11 +181,11 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tyler/tags/microservice" title="Microservice">
+                        <a class="tag" href="/tags/microservice" title="Microservice">
                             Microservice
                         </a>
                         
-                        <a class="tag" href="/tyler/tags/security" title="Security">
+                        <a class="tag" href="/tags/security" title="Security">
                             Security
                         </a>
                         
@@ -381,7 +381,7 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
 <div class="zs-modal-box">
 	<div class="zs-modal-head">
 		<button type="button" class="close">×</button>
-		<span class="author"><a href="https://changzhenlin.github.io/tyler/"><img src="/tyler/img/favicon.png" />Tyler Blog</a></span>
+		<span class="author"><a href="https://changzhenlin.top/"><img src="/img/favicon.png" />Tyler Blog</a></span>
         
 	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
 		
@@ -399,15 +399,15 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
 		<div class="zs-modal-pay">
 			<button class="btn btn-bred" id="pay-text">2元</button>
 			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
-			<img src="/tyler/img/reward/wechat-2.png"  id="pay-image"/>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
 		</div>
 	</div>
 	<div class="zs-modal-footer">
-		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/tyler/img/reward/wechat-btn.png"/></span></label>
-		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/tyler/img/reward/alipay-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
 	</div>
 </div>
-<script type="text/javascript" src="/tyler/js/reward.js"></script>
+<script type="text/javascript" src="/js/reward.js"></script>
 
                 
 
@@ -415,13 +415,13 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/tyler/2018/05/23/istio-auto-injection-with-webhook/" data-toggle="tooltip" data-placement="top" title="Istio Sidecar自动注入原理">&larr;
+                        <a href="/2018/05/23/istio-auto-injection-with-webhook/" data-toggle="tooltip" data-placement="top" title="Istio Sidecar自动注入原理">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/tyler/2018/05/23/service_2_service_auth/" data-toggle="tooltip" data-placement="top" title="微服务安全沉思录之二">Next
+                        <a href="/2018/05/23/service_2_service_auth/" data-toggle="tooltip" data-placement="top" title="微服务安全沉思录之二">Next
                             Post &rarr;</a>
                     </li>
                     
@@ -480,7 +480,7 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
                         
                         
                         
-                        <a href="/tyler/tags/docker" title="docker">
+                        <a href="/tags/docker" title="docker">
                             docker
                         </a>
                         
@@ -492,19 +492,19 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
                         
                         
                         
-                        <a href="/tyler/tags/istio" title="istio">
+                        <a href="/tags/istio" title="istio">
                             istio
                         </a>
                         
                         
                         
-                        <a href="/tyler/tags/kubernetes" title="kubernetes">
+                        <a href="/tags/kubernetes" title="kubernetes">
                             kubernetes
                         </a>
                         
                         
                         
-                        <a href="/tyler/tags/microservice" title="microservice">
+                        <a href="/tags/microservice" title="microservice">
                             microservice
                         </a>
                         
@@ -512,13 +512,13 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
                         
                         
                         
-                        <a href="/tyler/tags/security" title="security">
+                        <a href="/tags/security" title="security">
                             security
                         </a>
                         
                         
                         
-                        <a href="/tyler/tags/service-mesh" title="service-mesh">
+                        <a href="/tags/service-mesh" title="service-mesh">
                             service-mesh
                         </a>
                         
@@ -526,7 +526,7 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
                         
                         
                         
-                        <a href="/tyler/tags/tips" title="tips">
+                        <a href="/tags/tips" title="tips">
                             tips
                         </a>
                         
@@ -593,7 +593,7 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
 		    
                     
                     <li>
-                        <a target="_blank" href="/tyler/img/wechat.jpg">
+                        <a target="_blank" href="https://changzhenlin.github.io/tyler/img/wechat.jpg">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
@@ -739,7 +739,7 @@ Token颁发方的签名，用于客户端验证Token颁发方的身份，也用�
     
 
 
-    loadAsync("\/tyler\/js\/jquery.nav.js", function () {
+    loadAsync("\/js\/jquery.nav.js", function () {
         $('.catalog-body').onePageNav({
             currentClass: "active",
             changeHash: !1,
