@@ -6,13 +6,13 @@
     <description>Recent content in Tech on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add a snake game to your contribution graph on Github</title>
-      <link>https://changzhenlin.top/2022/11/22/istio-install_and_example/</link>
-      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <link>https://changzhenlin.top/2022/11/22/add_a_snake/</link>
+      <pubDate>Tue, 22 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>https://changzhenlin.top/2022/11/22/istio-install_and_example/</guid>
+      <guid>https://changzhenlin.top/2022/11/22/add_a_snake/</guid>
       <description>When I open somebody’s Github profile, the first thing I look for is the contribution graph. I know that the contribution graph is not informative at all, but I like to see the different patterns and images the colors form. Creating any kind of image on a contribution graph is very challenging because it requires a daily commitment to the task.</description>
     </item>
     
@@ -159,17 +159,6 @@
       
       <guid>https://changzhenlin.top/2017/11/08/istio-canary-release/</guid>
       <description>灰度发布（又名金丝雀发布）介绍 当应用上线以后，运维面临的一大挑战是如何能够在不影响已上线业务的情况下进行升级。做过产品的同学都清楚，不管在发</description>
-    </item>
-    
-    <item>
-      <title>使用Istio实现应用流量转移</title>
-      <link>https://changzhenlin.top/2017/11/07/istio-traffic-shifting/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2017/11/07/istio-traffic-shifting/</guid>
-      <description>&lt;p&gt;关于Istio的更多内容请参考&lt;a href=&#34;http://istio.doczh.cn/&#34;&gt;istio中文文档&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;原文参见&lt;a href=&#34;https://istio.io/docs/tasks/traffic-management/traffic-shifting.html&#34;&gt;Traffic Shifting&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;本任务将演示如何将应用流量逐渐从旧版本的服务迁移到新版本。通过Istio，可以使用一系列不同权重的规则（10%，20%，··· 100%）将流量平缓地从旧版本服务迁移到新版本服务。&lt;/p&gt;</description>
     </item>
     
   </channel>

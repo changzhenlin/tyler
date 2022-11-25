@@ -6,11 +6,29 @@
     <description>Recent content in Categories on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://changzhenlin.top/categories/life/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://changzhenlin.top/categories/tips/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/categories/tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>English</title>
       <link>https://changzhenlin.top/categories/english/</link>
-      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 12:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/categories/english/</guid>
       <description></description>
@@ -19,27 +37,9 @@
     <item>
       <title>Tech</title>
       <link>https://changzhenlin.top/categories/tech/</link>
-      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 12:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/categories/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://changzhenlin.top/categories/tips/</link>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/categories/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://changzhenlin.top/categories/life/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/categories/life/</guid>
       <description></description>
     </item>
     
