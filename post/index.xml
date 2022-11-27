@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some tips in CSS</title>
+      <link>https://changzhenlin.top/2022/11/26/five-center-css/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/2022/11/26/five-center-css/</guid>
+      <description>5 ways to center a div in css  .parent { display: flex; justify-content: center; align-items: center; }  .parent { display: grid; place-content: center; } </description>
+    </item>
+    
     <item>
       <title>人类和人生的意义</title>
       <link>https://changzhenlin.top/2022/11/25/humanandlife/</link>
@@ -19,7 +28,7 @@
     <item>
       <title>How to add a snake game to your contribution graph on Github</title>
       <link>https://changzhenlin.top/2022/11/22/add_a_snake/</link>
-      <pubDate>Tue, 22 Nov 2022 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/2022/11/22/add_a_snake/</guid>
       <description>When I open somebody’s Github profile, the first thing I look for is the contribution graph. I know that the contribution graph is not informative at all, but I like to see the different patterns and images the colors form.
@@ -38,15 +47,6 @@ Mostly, the Bootcamp grads and aspiring developers will try to commit often to s
     </item>
     
     <item>
-      <title>EA安装游戏提示出了点问题</title>
-      <link>https://changzhenlin.top/2022/03/11/set_up_my_ea/</link>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2022/03/11/set_up_my_ea/</guid>
-      <description>Cause / origin 开通XGP后，下载EA旗下游戏（双人成形）提示报错 Do something 挂梯子 用加速器 修改host 。。。 然并卵 Solved 先使用xbox下载一个ea旗下的植物大战</description>
-    </item>
-    
-    <item>
       <title>Welcome to Changzhenlin Blog</title>
       <link>https://changzhenlin.top/post/2017-11-03-hello-world/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
@@ -62,18 +62,7 @@ Mostly, the Bootcamp grads and aspiring developers will try to commit often to s
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/post/readme/</guid>
-      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.
-It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme.
-These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed.</description>
-    </item>
-    
-    <item>
-      <title>Istio v1aplha3 routing API介绍(译文）</title>
-      <link>https://changzhenlin.top/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
-      <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
+      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme. It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme. These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster</description>
     </item>
     
     <item>
@@ -88,80 +77,12 @@ These two upstream projects have done awesome jobs to create a blog theme, what 
     </item>
     
     <item>
-      <title>微服务安全沉思录之三</title>
-      <link>https://changzhenlin.top/2018/05/23/external_system_auth/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/23/external_system_auth/</guid>
-      <description>外部系统访问控制 除用户访问和微服务之间的相互访问外，外部的第三方系统也可能需要访问系统内部的微服务。例如在上一篇博客的网上商店例子中，外部的</description>
-    </item>
-    
-    <item>
-      <title>微服务安全沉思录之二</title>
-      <link>https://changzhenlin.top/2018/05/23/service_2_service_auth/</link>
-      <pubDate>Wed, 23 May 2018 15:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/23/service_2_service_auth/</guid>
-      <description>&lt;h2 id=&#34;服务间认证与鉴权&#34;&gt;服务间认证与鉴权&lt;/h2&gt;
-&lt;p&gt;除来自用户的访问请求以外，微服务应用中的各个微服务相互之间还有大量的访问，包括下述场景：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户间接触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
-例如在一个网上商店应用中，用户访问购物车微服务进行结算时，购物车微服务可能需要访问用户评级微服务获取用户的会员级别，以得到用户可以享受购物折扣。&lt;/li&gt;
-&lt;li&gt;非用户触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
-例如数据同步或者后台定时任务导致的微服务之间的相互访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;根据应用系统的数据敏感程度的不同，对于系统内微服务的相互访问可能有不同的安全要求。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>微服务安全沉思录之一</title>
       <link>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</link>
-      <pubDate>Wed, 23 May 2018 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</guid>
       <description>这段时间对之前微服务安全相关的一些想法进行了进一步总结和归纳，理清了在之前文章里面没有想得太清楚的地方，例如服务间的认证与鉴权以及用户身份在</description>
-    </item>
-    
-    <item>
-      <title>Istio Sidecar自动注入原理</title>
-      <link>https://changzhenlin.top/2018/05/23/istio-auto-injection-with-webhook/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/23/istio-auto-injection-with-webhook/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。&lt;/p&gt;
-&lt;p&gt;使用webhook的优势是不需要对API Server的源码进行修改和重新编译就可以扩展其功能。插入的逻辑实现为一个独立的web进程，通过参数方式传入到kubernets中，由kubernets在进行自身逻辑处理时对扩展逻辑进行回调。&lt;/p&gt;
-&lt;p&gt;Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>EA下载游戏提示报错</title>
-      <link>https://changzhenlin.top/2018/05/01/may-day-jiulonghu/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/01/may-day-jiulonghu/</guid>
-      <description>&lt;h2 id=&#34;寻浮云牧场不遇&#34;&gt;寻浮云牧场不遇&lt;/h2&gt;
-&lt;p&gt;五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
-大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Helm介绍</title>
-      <link>https://changzhenlin.top/2018/04/16/using-helm-to-deploy-to-kubernetes/</link>
-      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/04/16/using-helm-to-deploy-to-kubernetes/</guid>
-      <description>前言 Helm是Kubernetes生态系统中的一个软件包管理工具。本文将介绍为何要使用Helm进行Kubernetes软件包管理，澄清Hel</description>
-    </item>
-    
-    <item>
-      <title>Service Mesh 和 API Gateway的关系探讨（译文）</title>
-      <link>https://changzhenlin.top/2018/04/11/service-mesh-vs-api-gateway/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/04/11/service-mesh-vs-api-gateway/</guid>
-      <description>Service Mesh vs API Gateway 在前一篇关于Service Mesh的文章中,我提到了几个关于Service Mesh和API Gateway之间关系的问题，在本篇文章</description>
     </item>
     
     <item>
@@ -225,32 +146,20 @@ export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;
     </item>
     
     <item>
-      <title>Nginx开源Service Mesh组件Nginmesh安装指南</title>
-      <link>https://changzhenlin.top/2018/01/02/nginmesh-install/</link>
-      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
+      <title>微服务安全沉思录之二</title>
+      <link>https://changzhenlin.top/2018/05/23/service_2_service_auth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://changzhenlin.top/2018/01/02/nginmesh-install/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;Nginmesh是NGINX的Service Mesh开源项目，用于Istio服务网格平台中的数据面代理。它旨在提供七层负载均衡和服务路由功能，与Istio集成作为sidecar部署，并将以“标准，可靠和安全的方式”使得服务间通信更容易。Nginmesh在今年底已经连续发布了0.2和0.3版本，提供了服务发现，请求转发，路由规则，性能指标收集等功能。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何从外部访问Kubernetes集群中的应用？</title>
-      <link>https://changzhenlin.top/2017/11/28/access-application-from-outside/</link>
-      <pubDate>Tue, 28 Nov 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2017/11/28/access-application-from-outside/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;我们知道，kubernetes的Cluster Network属于私有网络，只能在cluster Network内部才能访问部署的应用，那如何才能将Kubernetes集群中的应用暴露到外部网络，为外部用户提供服务呢？本文探讨了从外部网络访问kubernetes cluster中应用的几种实现方式。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>采用Istio实现灰度发布(金丝雀发布)</title>
-      <link>https://changzhenlin.top/2017/11/08/istio-canary-release/</link>
-      <pubDate>Wed, 08 Nov 2017 15:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2017/11/08/istio-canary-release/</guid>
-      <description>灰度发布（又名金丝雀发布）介绍 当应用上线以后，运维面临的一大挑战是如何能够在不影响已上线业务的情况下进行升级。做过产品的同学都清楚，不管在发</description>
+      <guid>https://changzhenlin.top/2018/05/23/service_2_service_auth/</guid>
+      <description>&lt;h2 id=&#34;服务间认证与鉴权&#34;&gt;服务间认证与鉴权&lt;/h2&gt;
+&lt;p&gt;除来自用户的访问请求以外，微服务应用中的各个微服务相互之间还有大量的访问，包括下述场景：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户间接触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
+例如在一个网上商店应用中，用户访问购物车微服务进行结算时，购物车微服务可能需要访问用户评级微服务获取用户的会员级别，以得到用户可以享受购物折扣。&lt;/li&gt;
+&lt;li&gt;非用户触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
+例如数据同步或者后台定时任务导致的微服务之间的相互访问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;根据应用系统的数据敏感程度的不同，对于系统内微服务的相互访问可能有不同的安全要求。&lt;/p&gt;</description>
     </item>
     
   </channel>

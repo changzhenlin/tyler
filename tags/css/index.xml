@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Tyler Blog</title>
+    <link>https://changzhenlin.top/tags/css/</link>
+    <description>Recent content in CSS on Tyler Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some tips in CSS</title>
+      <link>https://changzhenlin.top/2022/11/26/five-center-css/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/2022/11/26/five-center-css/</guid>
+      <description>5 ways to center a div in css  .parent { display: flex; justify-content: center; align-items: center; }  .parent { display: grid; place-content: center; } </description>
+    </item>
+    
+  </channel>
+</rss>
