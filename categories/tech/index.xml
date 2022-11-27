@@ -6,7 +6,16 @@
     <description>Recent content in Tech on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于新买的Macbook Pro💻</title>
+      <link>https://changzhenlin.top/post/2022-11-27-about-mac/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2022-11-27-about-mac/</guid>
+      <description>起因 本来我有一个台式机，i5 12600kf的处理器，今年初买的。还有一台荣耀的i5 8代笔记本（初代magicbook pro），2019年购入</description>
+    </item>
+    
     <item>
       <title>Some tips in CSS</title>
       <link>https://changzhenlin.top/2022/11/26/five-center-css/</link>

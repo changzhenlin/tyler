@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Tyler Blog</title>
+    <link>https://changzhenlin.top/tags/tech/</link>
+    <description>Recent content in tech on Tyler Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于新买的Macbook Pro💻</title>
+      <link>https://changzhenlin.top/post/2022-11-27-about-mac/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2022-11-27-about-mac/</guid>
+      <description>起因 本来我有一个台式机，i5 12600kf的处理器，今年初买的。还有一台荣耀的i5 8代笔记本（初代magicbook pro），2019年购入</description>
+    </item>
+    
+  </channel>
+</rss>
