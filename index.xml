@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>Some tips in CSS</title>
+      <title>CSS Tips</title>
       <link>https://changzhenlin.top/2022/11/26/five-center-css/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -93,42 +93,11 @@ Mostly, the Bootcamp grads and aspiring developers will try to commit often to s
     </item>
     
     <item>
-      <title>Istio 0.8 Release发布</title>
-      <link>https://changzhenlin.top/2018/06/02/istio08/</link>
-      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/06/02/istio08/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;在6月1日这一天的早上，Istio社区宣布发布0.8 Release，除了常规的故障修复和性能改进外，这个儿童节礼物里面还有什么值得期待内容呢？让我们来看一看：&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>微服务安全沉思录之一</title>
-      <link>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</guid>
-      <description>这段时间对之前微服务安全相关的一些想法进行了进一步总结和归纳，理清了在之前文章里面没有想得太清楚的地方，例如服务间的认证与鉴权以及用户身份在</description>
-    </item>
-    
-    <item>
-      <title>谈谈微服务架构中的基础设施：Service Mesh与Istio</title>
-      <link>https://changzhenlin.top/2018/03/29/what-is-service-mesh-and-istio/</link>
-      <pubDate>Thu, 29 Mar 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/03/29/what-is-service-mesh-and-istio/</guid>
-      <description>&lt;h2 id=&#34;微服务架构的演进&#34;&gt;微服务架构的演进&lt;/h2&gt;
-&lt;p&gt;作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。&lt;/p&gt;
-&lt;p&gt;另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>如何配置docker使用HTTP代理</title>
-      <link>https://changzhenlin.top/2018/03/13/use-docker-behind-http-proxy/</link>
+      <link>https://changzhenlin.top/post/2018-03-13-use-docker-behind-http-proxy/</link>
       <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://changzhenlin.top/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <guid>https://changzhenlin.top/post/2018-03-13-use-docker-behind-http-proxy/</guid>
       <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
 &lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /etc/default/docker
@@ -197,23 +166,6 @@ export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;
       
       <guid>https://changzhenlin.top/top/archive/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>微服务安全沉思录之二</title>
-      <link>https://changzhenlin.top/2018/05/23/service_2_service_auth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/23/service_2_service_auth/</guid>
-      <description>&lt;h2 id=&#34;服务间认证与鉴权&#34;&gt;服务间认证与鉴权&lt;/h2&gt;
-&lt;p&gt;除来自用户的访问请求以外，微服务应用中的各个微服务相互之间还有大量的访问，包括下述场景：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户间接触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
-例如在一个网上商店应用中，用户访问购物车微服务进行结算时，购物车微服务可能需要访问用户评级微服务获取用户的会员级别，以得到用户可以享受购物折扣。&lt;/li&gt;
-&lt;li&gt;非用户触发的微服务之间的相互访问&lt;!-- raw HTML omitted --&gt;
-例如数据同步或者后台定时任务导致的微服务之间的相互访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;根据应用系统的数据敏感程度的不同，对于系统内微服务的相互访问可能有不同的安全要求。&lt;/p&gt;</description>
     </item>
     
   </channel>
