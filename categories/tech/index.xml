@@ -6,7 +6,16 @@
     <description>Recent content in Tech on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电子产品的充电功率及常见单位关系🔋</title>
+      <link>https://changzhenlin.top/post/2022-12-03-charge/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2022-12-03-charge/</guid>
+      <description>目前市面上充电最快的手机是红米的note 12探索版。达到了恐怖的 210w😱。想象一下家里的空调、吹风机有的也才1000w， 虽然手机还远远赶不</description>
+    </item>
+    
     <item>
       <title>使用CSS把网页全部置灰</title>
       <link>https://changzhenlin.top/post/2022-11-30-css-gray/</link>
@@ -47,22 +56,12 @@ Mostly, the Bootcamp grads and aspiring developers will try to commit often to s
     </item>
     
     <item>
-      <title>做一个更出色的程序员</title>
+      <title>做一个更出色的程序员🧘🏻</title>
       <link>https://changzhenlin.top/post/my-first-post/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/post/my-first-post/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>如何构建安全的微服务应用？</title>
-      <link>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</link>
-      <pubDate>Sat, 03 Feb 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/05/22/user_authentication_authorization/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;微服务架构的引入为软件应用带来了诸多好处：包括小开发团队，缩短开发周期，语言选择灵活性，增强服务伸缩能力等。与此同时，也引入了分布式系统的诸多复杂问题。其中一个挑战就是如何在微服务架构中实现一个灵活，安全，高效的认证和鉴权方案。本文将尝试就此问题进行一次比较完整的探讨。&lt;/p&gt;</description>
     </item>
     
   </channel>
