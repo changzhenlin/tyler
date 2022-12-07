@@ -218,7 +218,7 @@
                 post-container">
 
                 
-                <h3 id="5-ways-to-center-a-div-in-css">5 ways to center a div in css</h3>
+                <h2 id="1居中div">1、居中div</h2>
 <pre tabindex="0"><code>
 .parent {
   display: flex;
@@ -230,7 +230,51 @@
   display: grid;
   place-content: center;
 }
-</code></pre>
+</code></pre><pre tabindex="0"><code>
+.parent{
+  position:reletive;
+}
+.son{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</code></pre><h2 id="2清除浮动">2、清除浮动</h2>
+<p>清除浮动是为了解决浮动元素对后面元素布局的影响，即浮动元素会脱离文档流，不占据实际页面空间，导致后面元素无法撑开页面，出现页面混乱的问题。</p>
+<p>清除浮动的方法有很多种，包括使用空标签（如<!-- raw HTML omitted -->）并设置为清除浮动，使用伪元素（如:after）并设置为清除浮动，以及使用父元素的overflow属性来清除浮动。</p>
+<h3 id="空标签">空标签</h3>
+<pre tabindex="0"><code>
+img {
+    float: left;
+    width: 25%;
+    margin: 10px;
+}
+
+&lt;div style=&#34;clear: both;&#34;&gt;&lt;/div&gt;
+</code></pre><h3 id="伪元素">伪元素</h3>
+<pre tabindex="0"><code>
+img {
+    float: left;
+    width: 25%;
+    margin: 10px;
+}
+
+img:after {
+    content: &#34;&#34;;
+    clear: both;
+    display: table;
+}
+</code></pre><h3 id="父元素的overflow属性">父元素的overflow属性</h3>
+<pre tabindex="0"><code>
+&lt;div style=&#34;overflow: auto;&#34;&gt;
+    &lt;img src=&#34;&#34; alt=&#34;&#34; style=&#34;float: left; width: 25%; margin: 10px;&#34;&gt;
+    &lt;img src=&#34;&#34; alt=&#34;&#34; style=&#34;float: left; width: 25%; margin: 10px;&#34;&gt;
+    &lt;img src=&#34;&#34; alt=&#34;&#34; style=&#34;float: left; width: 25%; margin: 10px;&#34;&gt;
+    &lt;img src=&#34;&#34; alt=&#34;&#34; style=&#34;float: left; width: 25%; margin: 10px;&#34;&gt;
+&lt;/div&gt;
+</code></pre><p>通过清除浮动，可以解决浮动元素对后面元素布局的影响，保证页面布局的正常显示。</p>
+
 
                 
                 
