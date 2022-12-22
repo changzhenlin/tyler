@@ -6,7 +6,7 @@
     <description>Recent content in Tips on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opinion🫢</title>
       <link>https://changzhenlin.top/post/2022-12-01-opinion/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://changzhenlin.top/post/2022-12-01-opinion/</guid>
       <description>1、我认识的那些不知道自己热衷什么的人，都努力得不够。他们只是坐在那里，等待事业的灵感来袭。他们不应该等待，应该去创造，然后就会知道自己的激</description>
+    </item>
+    
+    <item>
+      <title>使用n管理node版本🔧</title>
+      <link>https://changzhenlin.top/post/2022-12-22-n/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2022-12-22-n/</guid>
+      <description>引言 随着Node.js的不断更新和发展，n可能是管理node版本的最佳工具。 n允许用户轻松安装和切换到不同的Node.js版本，从而更轻松地</description>
     </item>
     
     <item>
