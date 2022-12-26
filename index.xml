@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Opinion🫢</title>
+      <title>Opinion🤯</title>
       <link>https://changzhenlin.top/post/2022-12-01-opinion/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -17,7 +17,7 @@
     </item>
     
     <item>
-      <title>美国摄影师Nguan调色风格🎀</title>
+      <title>美国摄影师Nguan颜色🎀风格</title>
       <link>https://changzhenlin.top/post/2022-12-26/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>使用n管理node版本🔧</title>
+      <title>使用n管理⚙️node版本</title>
       <link>https://changzhenlin.top/post/2022-12-22-n/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>notion AI测试🤓</title>
+      <title>notion AI🤓测试</title>
       <link>https://changzhenlin.top/post/2022-12-20-notionai/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -80,7 +80,7 @@
     </item>
     
     <item>
-      <title>韩国摄影师yan_pic的调色风格🌈</title>
+      <title>韩国摄影师yan_pic颜色🌈风格</title>
       <link>https://changzhenlin.top/post/2022-12-08-korea-photo-style/</link>
       <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -89,7 +89,7 @@
     </item>
     
     <item>
-      <title>注册chatGPT踩坑👣</title>
+      <title>注册chatGPT👣踩坑</title>
       <link>https://changzhenlin.top/post/2022-12-07-not-support-in-your-country/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -98,7 +98,7 @@
     </item>
     
     <item>
-      <title>量子力学发展的粗略历史重要进程😺</title>
+      <title>量子力学😺发展的粗略历史重要进程</title>
       <link>https://changzhenlin.top/post/2022-12-04-quntum-mechanics/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -107,7 +107,7 @@
     </item>
     
     <item>
-      <title>电子产品的充电功率及常见单位关系🔋</title>
+      <title>电子产品的充电功率🔋及常见单位关系</title>
       <link>https://changzhenlin.top/post/2022-12-03-charge/</link>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -125,7 +125,7 @@
     </item>
     
     <item>
-      <title>关于新买的Macbook Pro💻</title>
+      <title>关于新买的💻Macbook Pro</title>
       <link>https://changzhenlin.top/post/2022-11-27-about-mac/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -152,7 +152,7 @@
     </item>
     
     <item>
-      <title>How to add a snake gif to your contribution graph on Github🐍</title>
+      <title>How to add a snake 🐍 gif to your contribution graph on Github</title>
       <link>https://changzhenlin.top/2022/11/22/add_a_snake/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -173,52 +173,13 @@ Mostly, the Bootcamp grads and aspiring developers will try to commit often to s
     </item>
     
     <item>
-      <title>Welcome to Tyler Blog👏🏻</title>
+      <title>Welcome👏🏻 to Tyler Blog</title>
       <link>https://changzhenlin.top/post/2017-11-03-hello-world/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/post/2017-11-03-hello-world/</guid>
       <description> “Yeah It&amp;rsquo;s on. ”
  Hello World! </description>
-    </item>
-    
-    <item>
-      <title>如何配置docker使用HTTP代理</title>
-      <link>https://changzhenlin.top/post/2018-03-13-use-docker-behind-http-proxy/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/post/2018-03-13-use-docker-behind-http-proxy/</guid>
-      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
-&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /etc/default/docker
-
-export http_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;
-export https_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;
-export HTTP_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;
-export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim Tips</title>
-      <link>https://changzhenlin.top/2018/02/09/vim-tips/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/02/09/vim-tips/</guid>
-      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
-&lt;p&gt;
-  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;
-
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何使用非root用户执行docker命令</title>
-      <link>https://changzhenlin.top/2018/02/09/docker-without-sudo/</link>
-      <pubDate>Fri, 09 Feb 2018 10:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/2018/02/09/docker-without-sudo/</guid>
-      <description>Add the docker group if it doesn&amp;rsquo;t already exist: sudo groupadd docker Add the connected user &amp;ldquo;$USER&amp;rdquo; to the docker group. Change the user name to match your preferred user if you do not want to use your current user: sudo gpasswd -a $USER docker Either do a newgrp docker or log out/in to activate the changes to groups.</description>
     </item>
     
     <item>
