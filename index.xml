@@ -6,7 +6,7 @@
     <description>Recent content on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opinion🤯</title>
       <link>https://changzhenlin.top/post/2022-12-01-opinion/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://changzhenlin.top/post/2022-12-01-opinion/</guid>
       <description>1、我认识的那些不知道自己热衷什么的人，都努力得不够。他们只是坐在那里，等待事业的灵感来袭。他们不应该等待，应该去创造，然后就会知道自己的激</description>
+    </item>
+    
+    <item>
+      <title>Mac系统安装ChromeDriver🌐</title>
+      <link>https://changzhenlin.top/post/2023-01-05-chromedriver/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2023-01-05-chromedriver/</guid>
+      <description>Mac系统安装ChromeDriver 介绍 该方法可以让您在Mac系统中安装和更新ChromeDriver，以便能够在本地运行Selenium</description>
     </item>
     
     <item>
