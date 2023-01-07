@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://changzhenlin.top/categories/life/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photo</title>
+      <link>https://changzhenlin.top/categories/photo/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/categories/photo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Todo</title>
       <link>https://changzhenlin.top/categories/todo/</link>
@@ -22,24 +40,6 @@
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://changzhenlin.top/categories/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://changzhenlin.top/categories/life/</link>
-      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/categories/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photo</title>
-      <link>https://changzhenlin.top/categories/photo/</link>
-      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://changzhenlin.top/categories/photo/</guid>
       <description></description>
     </item>
     
