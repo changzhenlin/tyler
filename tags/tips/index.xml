@@ -43,5 +43,14 @@
       <description>目前市面上充电最快的手机是红米的note 12探索版。达到了恐怖的 210w😱。想象一下家里的空调、吹风机有的也才1000w， 虽然手机还远远赶不</description>
     </item>
     
+    <item>
+      <title>CSS &amp; JS Tips🎄</title>
+      <link>https://changzhenlin.top/2022/11/26/five-center-css/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/2022/11/26/five-center-css/</guid>
+      <description>1、居中div .parent { display: flex; justify-content: center; align-items: center; } .parent { display: grid; place-content: center; } .parent{ position:reletive; } .son{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } 2、清除浮动 清除浮动是为了解决浮动元素对后面元素布局的影响，即浮动</description>
+    </item>
+    
   </channel>
 </rss>

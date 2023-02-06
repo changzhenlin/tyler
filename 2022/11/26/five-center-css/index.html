@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="CSS Tips🎄" />
-    <meta property="og:title" content="CSS Tips🎄" />
-    <meta property="twitter:title" content="CSS Tips🎄" />
+    <meta name="title" content="CSS &amp; JS Tips🎄" />
+    <meta property="og:title" content="CSS &amp; JS Tips🎄" />
+    <meta property="twitter:title" content="CSS &amp; JS Tips🎄" />
     
 
     
-    <meta name="description" content="Some tips in CSS">
-    <meta property="og:description" content="Some tips in CSS" />
-    <meta property="twitter:description" content="Some tips in CSS" />
+    <meta name="description" content="Some tips in CSS &amp; JS">
+    <meta property="og:description" content="Some tips in CSS &amp; JS" />
+    <meta property="twitter:description" content="Some tips in CSS &amp; JS" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="常振林, Changzhenlin, Changzhenlin, , 常振林的网络日志, 常振林的博客, Changzhenlin Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>CSS Tips🎄-常振林的博客 | Changzhenlin Blog</title>
+    <title>CSS &amp; JS Tips🎄-常振林的博客 | Changzhenlin Blog</title>
 
     <link rel="canonical" href="/2022/11/26/five-center-css/">
 
@@ -187,8 +187,16 @@
                             CSS
                         </a>
                         
+                        <a class="tag" href="/tags/js" title="JS">
+                            JS
+                        </a>
+                        
+                        <a class="tag" href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
                     </div>
-                    <h1>CSS Tips🎄</h1>
+                    <h1>CSS &amp; JS Tips🎄</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
@@ -282,7 +290,48 @@ img:after {
     &lt;img src=&#34;&#34; alt=&#34;&#34; style=&#34;float: left; width: 25%; margin: 10px;&#34;&gt;
 &lt;/div&gt;
 </code></pre><p>通过清除浮动，可以解决浮动元素对后面元素布局的影响，保证页面布局的正常显示。</p>
-
+<h2 id="3js">3、JS</h2>
+<h3 id="将一个字符串变成数字">将一个字符串变成数字</h3>
+<pre tabindex="0"><code>
+~~null;      // =&gt; 0
+~~undefined; // =&gt; 0
+--NaN;       // =&gt; 0
+~~0;         // =&gt; 0
+~~{};        // =&gt; 0
+~~[];        // =&gt; 0
+~~(1/0);     // =&gt; 0
+~~false;     // =&gt; 0
+~~true;      // =&gt; 1
+~~1.9;       // =&gt; 1
+~~-1.9;      // =&gt; -1
+</code></pre><h3 id="数组扁平化">数组扁平化</h3>
+<p>ES6中的flat
+我们还可以直接调用 ES6 中的flat方法来实现数组扁平化。flat 方法的语法：arr.flat ( [depth] )
+其中depth是flat的参数，depth 是可以传递数组的展开深度（默认不填、数值是 1），即展开一层数组。如果层数不确定，参数可以传进 Infinity，代表不论多少层都要展开：</p>
+<pre tabindex="0"><code>
+let arr = [1, [2, [3, 4]]]; 
+console.log(arr.flat(Infinity)); // [1, 2, 3, 4，5]
+</code></pre><h3 id="数组字符串去重">数组||字符串去重</h3>
+<pre tabindex="0"><code>
+let arr = [3, 5, 2, 2, 5, 5]; 
+let setArr = new Set(arr)            // 返回set数据结构Set(3) {3, 5, 2} 
+//方法一 es6的...解构 
+let unique1 = [...setArr ];          //去重转数组后 [3,5,2] 
+//方法二 Array.from()解析类数组为数组 
+let unique2 = Array.from(setArr )    //去重转数组后 [3,5,2]
+let str = &#34;352255&#34;; 
+let unique = [...new Set(str)].join(&#34;&#34;); // 352
+</code></pre><h3 id="并集交集差集">并集交集差集</h3>
+<pre tabindex="0"><code>
+let a = new Set([1, 2, 3]); 
+let b = new Set([4, 3, 2]); 
+// 并集 
+let union = new Set([...a, ...b]); // Set {1, 2, 3, 4} 
+// 交集 
+let intersect = new Set([...a].filter(x =&gt; b.has(x))); // set {2, 3} 
+// （a 相对于 b 的）差集 
+let difference = new Set([...a].filter(x =&gt; !b.has(x))); // Set {1}
+</code></pre>
 
                 
                 
@@ -412,6 +461,8 @@ img:after {
                         <a href="/tags/css" title="css">
                             css
                         </a>
+                        
+                        
                         
                         
                         
