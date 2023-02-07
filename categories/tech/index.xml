@@ -6,7 +6,16 @@
     <description>Recent content in Tech on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git推送冲突🪢问题</title>
+      <link>https://changzhenlin.top/post/2023-02-07-gitrebase/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2023-02-07-gitrebase/</guid>
+      <description>起因 今天在推送至github的时候出现了冲突，原因是因为昨天在github用在线编辑器修改了文件， 今天没有拉取就提交了，所以出现了冲突： 2023-02-07 17:56:00.671</description>
+    </item>
+    
     <item>
       <title>notion AI🤓测试</title>
       <link>https://changzhenlin.top/post/2022-12-20-notionai/</link>
