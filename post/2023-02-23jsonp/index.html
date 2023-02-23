@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.93.3" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="JSONP解决跨域原理" />
+    <meta property="og:title" content="JSONP解决跨域原理" />
+    <meta property="twitter:title" content="JSONP解决跨域原理" />
     
 
     
@@ -35,9 +34,9 @@
     <meta name="keyword"  content="常振林, Changzhenlin, Changzhenlin, , 常振林的网络日志, 常振林的博客, Changzhenlin Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Kubernetes, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Tyler Blog-常振林的博客 | Changzhenlin Blog</title>
+    <title>JSONP解决跨域原理-常振林的博客 | Changzhenlin Blog</title>
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/2023-02-23jsonp/">
 
     
     
@@ -169,14 +168,48 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Tyler Blog </h1>
-                    
-		    <span class="subheading">Keep Code &amp; Keep Record</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
+                        <a class="tag" href="/tags/tech" title="tech">
+                            tech
+                        </a>
+                        
+                    </div>
+                    <h1>JSONP解决跨域原理</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by
+                            
+                                Tyler
+                             
+                            on 
+                            Thursday, February 23, 2023
+                            
+                            
+                            
+                            
+                        <span style="font-size: 16px;" id="busuanzi_container_page_pv"><br>
+                            累计<span id="busuanzi_value_page_pv"></span>次阅读
+                          </span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -185,353 +218,202 @@
 
 
 
-  
-<div class="container">
-    <div class="row">
-        
-        
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
+
+<article>
+    <div class="container">
+        <div class="row">
+
             
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-<div class="post-preview">
-    <a href="https://changzhenlin.top/post/2022-12-20-notionai/">
-        <h2 class="post-title">
-            notion AI🤓测试
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            两个月左右的排队，终于可以使用了
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Tyler  Tuesday, December 20, 2022
-        
-        
-    
-    </p>
+                
+                
 
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p>「可以赞赏，可以打赏」</p>
+	
+	<button class="zs show-zs btn btn-bred">点我鼓励</button>
 </div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://changzhenlin.top/post/2022-12-17-covid-4/">
-        <h2 class="post-title">
-            疑似中招新冠病毒😑(第四天)
-        </h2>
-	
-        <h3 class="post-subtitle">
-            体温37.7摄氏度
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            主要症状是鼻塞，低烧
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		
         
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Tyler  Saturday, December 17, 2022
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://changzhenlin.top/post/2022-12-16-covid3/">
-        <h2 class="post-title">
-            疑似中招新冠病毒🤐(第三天)
-        </h2>
-	
-        <h3 class="post-subtitle">
-            体温38.7摄氏度
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            主要症状是头压大，眼压大
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Tyler  Friday, December 16, 2022
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://changzhenlin.top/post/2022-12-15-covid-2/">
-        <h2 class="post-title">
-            疑似中招新冠病毒💪(第二天)
-        </h2>
-	
-        <h3 class="post-subtitle">
-            体温36.5摄氏度
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            主要症状为头晕无力（都不严重）
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Tyler  Thursday, December 15, 2022
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://changzhenlin.top/post/2022-12-14-covid19/">
-        <h2 class="post-title">
-            疑似中招新冠病毒😫(第一天)
-        </h2>
-	
-        <h3 class="post-subtitle">
-            体温38.7摄氏度
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            早上出门时无任何症状
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Tyler  Wednesday, December 14, 2022
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-
-            
-
-
-<ul class="pager">
-    
-    <li class="previous">
-        <a href="/page/2/">&larr; Newer Posts</a>
-    </li>
-    
-    
-    <li class="next">
-        <a href="/page/4/">Older Posts &rarr;</a>
-    </li>
-    
-</ul>
-
-
-       	</div>
-        
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-            
-            
-               
-                    <a href="/tags/ai" title="ai">
-                        ai
-                    </a>
-               
-            
-               
-            
-               
-            
-               
-                    <a href="/tags/color" title="color">
-                        color
-                    </a>
-               
-            
-               
-                    <a href="/tags/covid" title="covid">
-                        covid
-                    </a>
-               
-            
-               
-                    <a href="/tags/css" title="css">
-                        css
-                    </a>
-               
-            
-               
-            
-               
-            
-               
-                    <a href="/tags/life" title="life">
-                        life
-                    </a>
-               
-            
-               
-            
-               
-            
-               
-                    <a href="/tags/photo" title="photo">
-                        photo
-                    </a>
-               
-            
-               
-            
-               
-            
-               
-            
-               
-            
-               
-                    <a href="/tags/tech" title="tech">
-                        tech
-                    </a>
-               
-            
-               
-                    <a href="/tags/tips" title="tips">
-                        tips
-                    </a>
-               
-            
-               
-            
-        </div>
-    </section>
-    
-
-    
-	
-    <section class="visible-md visible-lg">
-	<hr><h5><a href="/top/about">ABOUT ME</a></h5>
-        <div class="short-about">
-            
-            <a href="https://changzhenlin.github.io/tyler/img/wechat.jpg">
-               <img src="https://changzhenlin.github.io/tyler/img/me.jpg" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Software Developer, Amateur Shutterbug and A Life Student</p>
-            
-           
-           <ul class="list-inline">
-               
-               <li>
-                   <a href='/index.xml' rel="alternate" type="application/rss+xml" title="Tyler Blog" >
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               <li>
-                   <a href="https://twitter.com/czl_tt">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://changzhenlin.github.io/tyler/img/wechat.jpg">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/changzhenlin">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-                    <li>
-                        <a target="_blank" href="https://stackoverflow.com/users/18425030/tyler">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-            
-            
-            
-               
-               
-               
-               
-                </ul>
-            </div>
-    </section>
-	
-    
-    
-
-    
-    
-</div>
-
+	        
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			
+			<img src="/img/reward/wechat-10.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
 	</div>
 </div>
+<script type="text/javascript" src="/js/reward.js"></script>
 
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/2023-02-07-gitrebase/" data-toggle="tooltip" data-placement="top" title="git推送冲突🪢问题">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/2022-12-01-opinion/" data-toggle="tooltip" data-placement="top" title="Opinion🤯">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+<script src="https://giscus.app/client.js"
+        data-repo="changzhenlin/tyler"
+        data-repo-id="R_kgDOG-IwoA"
+        data-category="General"
+        data-category-id="DIC_kwDOG-IwoM4CSthU"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/ai" title="ai">
+                            ai
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/color" title="color">
+                            color
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/covid" title="covid">
+                            covid
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/css" title="css">
+                            css
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/life" title="life">
+                            life
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/photo" title="photo">
+                            photo
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/tech" title="tech">
+                            tech
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
 
 
 
@@ -543,7 +425,7 @@
                 <ul class="list-inline text-center">
                    
                    <li>
-                       <a href='/index.xml' rel="alternate" type="application/rss+xml" title="Tyler Blog" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="Tyler Blog" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

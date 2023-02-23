@@ -6,7 +6,16 @@
     <description>Recent content in Todo on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/todo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/categories/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSONP解决跨域原理</title>
+      <link>https://changzhenlin.top/post/2023-02-23jsonp/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2023-02-23jsonp/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>仿一次性🎞️胶片相机调色</title>
       <link>https://changzhenlin.top/post/2023-01-20-filmcamera/</link>
