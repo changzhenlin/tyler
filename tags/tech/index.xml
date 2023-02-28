@@ -6,7 +6,16 @@
     <description>Recent content in tech on Tyler Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>比chatgpt更厉害的Bing</title>
+      <link>https://changzhenlin.top/post/2023-02-28-bing/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2023-02-28-bing/</guid>
+      <description>你可能已经听说过chatgpt，一个基于人工智能的聊天机器人，可以与你进行各种话题的对话，甚至可以生成一些有趣的内容，比如诗歌、故事、代码等</description>
+    </item>
+    
     <item>
       <title>JSONP解决跨域原理</title>
       <link>https://changzhenlin.top/post/2023-02-23jsonp/</link>
