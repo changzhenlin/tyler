@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>todo on Tyler Blog</title>
+    <link>https://changzhenlin.top/tags/todo/</link>
+    <description>Recent content in todo on Tyler Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://changzhenlin.top/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github-copilot-cli使用体验</title>
+      <link>https://changzhenlin.top/post/2023-03-29-github-copilot-cli/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://changzhenlin.top/post/2023-03-29-github-copilot-cli/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
